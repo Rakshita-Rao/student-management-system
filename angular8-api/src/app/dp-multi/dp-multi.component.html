@@ -1,0 +1,21 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2>Recomendeed Courses</h2>
+  </div>
+  <div class="panel-body">
+    <table id="example" class="display" class="table table-striped table-bordered table-sm row-border hover" cellspacing="0" width="100%">
+      <thead>
+        <tr>
+          <th >Course Name</th>
+          <th >URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let course of courses | async">
+          <td>{{course.courseName}}</td>
+          <td><a href="{{course.url}}">{{course.url}}</a></td> 
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

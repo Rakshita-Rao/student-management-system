@@ -1,0 +1,42 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+angular8-api/dist
+angular8-api/tmp
+angular8-api/out-tsc
+angular8-api/bazel-out
+
+# Node
+angular8-api/node_modules
+angular8-api/npm-debug.log
+angular8-api/yarn-error.log
+
+# IDEs and editors
+angular8-api/.idea/
+angular8-api/.project
+angular8-api/.classpath
+angular8-api/.c9/
+angular8-api/*.launch
+angular8-api/.settings/
+angular8-api/*.sublime-workspace
+
+# Visual Studio Code
+angular8-api/.vscode/*
+angular8-api/.vscode/settings.json
+angular8-api/.vscode/tasks.json
+angular8-api/.vscode/launch.json
+angular8-api/.vscode/extensions.json
+angular8-api/.history/*
+
+# Miscellaneous
+angular8-api/.angular/cache
+angular8-api/.sass-cache/
+angular8-api/connect.lock
+angular8-api/coverage
+angular8-api/libpeerconnection.log
+angular8-api/testem.log
+angular8-api/typings
+
+# System files
+angular8-api/.DS_Store
+angular8-api/Thumbs.db

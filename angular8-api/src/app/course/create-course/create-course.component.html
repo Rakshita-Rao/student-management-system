@@ -1,0 +1,21 @@
+<h3>Create Course</h3>
+<div [hidden]="submitted" style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Course Name</label>
+      <input type="text" class="form-control" id="courseName" required [(ngModel)]="course.courseName" name="courseName">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Short Description</label>
+      <input type="text" class="form-control" id="shortDescription" required [(ngModel)]="course.shortDescription" name="shortDescription">
+    </div>
+
+    <div class="form-group">
+      <label for="name">URL</label>
+      <input type="text" class="form-control" id="url" required [(ngModel)]="course.url" name="url">
+    </div>
+    
+    <button class="btn btn-success">Submit</button>
+  </form>
+</div>
